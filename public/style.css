@@ -1,0 +1,50 @@
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#sub{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: right;
+}
+
+#Div1{
+    margin: 3%;
+    border: 1px solid black;
+    /* padding-left: 10%; */
+}
+
+#Div1>h1{
+    text-align: center;
+}
+
+#Div1>img{
+    margin-left: 20%;
+}
+
+#Div1>p{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#sub1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: right;
+}
+
+#gl{
+    text-align: right;
+    margin-right: 2%;
+    font-size: 30px;
+}
+
+#gr{
+    margin-left: 2%;
+    font-size: 30px;
+}
